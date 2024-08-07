@@ -1,0 +1,21 @@
+.herosection{
+   
+    height: 40vh;
+    padding: 0 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    
+    /* background-color: var(--primaryColor); */
+    
+}
+
+.herobanner{
+    
+    height: 70%;
+    /* background-color: aliceblue; */
+    background-image: url(../../assets/UI\ UX\ ENGINEER.svg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    
+}

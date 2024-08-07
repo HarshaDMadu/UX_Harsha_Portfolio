@@ -1,0 +1,132 @@
+.dashedlinebg{
+    position: relative;
+    margin-top: 10px;
+    height: 100vh;
+    background-color: var(--primaryColor);
+    /* background-color: brown; */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content:baseline;
+    padding: 2% 0% 0% 0%;
+  
+}
+.onesegment{
+    margin: 0 1%;
+    width: 12%;
+    height: 100%;
+    /* background-color: rgb(218, 13, 44); */
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.dashedline01{
+    
+    /* border-left: 2px solid rgb(255, 0, 0); */
+    border-left: 2px dashed var(--secondaryColor );
+    height: 100%;
+    
+}
+
+.dashedlinecontainer{
+    
+    padding: 0 1%;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    opacity: 0.2;
+    
+    
+}
+
+.section2text{
+    
+    color: var(--secondaryColor);
+    top: 0;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:baseline;
+    /* background-color: blueviolet; */
+    padding: 5% 5%;
+    /* margin: 90px; */
+    gap: 10vh;
+}
+
+.section2TextElement{
+    
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:center;
+    font-size: 6rem;
+    
+    /* background-color: rgb(7, 12, 153); */
+}
+
+.textLine01{
+    width: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    
+}
+
+.textLine02{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+}
+
+.luxuriantText{
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.textLine03{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 8%
+}
+
+.modernText{
+    
+    width: 100%;
+    display: flex;
+    align-items:flex-end;
+    padding-left: 0;
+}
+.textLine04{
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-end;
+}
+.uniqueext{
+    padding-right: 8%;
+    /* background-color: bisque; */
+}
+
+.section2Description{
+    width: 40%;
+    height: 20vh;
+    display: flex;
+    font-size: var(--navText);
+    /* background-color: aqua; */
+    
+}
+.descriptionParahraph{
+    letter-spacing: 1px;
+}
+   
+

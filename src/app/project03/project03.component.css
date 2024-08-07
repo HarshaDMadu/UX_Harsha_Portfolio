@@ -1,0 +1,114 @@
+*{
+    padding: 0 ;
+    margin: 0;
+    box-sizing: border-box;
+    color: var(--primaryColor);
+    text-transform: uppercase;
+}
+
+.main{
+    
+    padding: 30px 30px;
+    height: 150vh;
+    width: 100%;
+    background-color: var(--secondaryColor);
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.line{
+    
+    width: 100%;
+    margin-bottom: 20px;
+    
+}
+
+.line hr{
+    height: 3px;
+    background-color: var(--primaryColor);
+}
+
+.headerContainer{
+    width: 100%;
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items: baseline;
+    /* background-color: aqua; */
+   
+}
+
+.cardSectionMain{
+    padding: 10vh 0vw;
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+    gap: 5%;
+
+}
+
+.cardSection{
+    height: 100%;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    
+   
+    
+}
+
+.titleElement{
+    
+    
+    font-size: 12rem;
+    margin: 0;
+    padding: 0px;
+
+   
+    
+   
+   
+}
+.title{
+    width: 10%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+   
+    
+}
+
+.title02{
+    font-size: 12rem;
+}
+
+.img{
+    /* background-color: blue; */
+    
+    width: 75%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: baseline;
+    
+   
+}
+
+.imgElement{
+    width: 100%;
+    background-image: url(../../assets/card03.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+
+    
+    
+
+
+

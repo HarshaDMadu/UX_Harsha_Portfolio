@@ -1,0 +1,73 @@
+
+.navbar{
+   
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: var(--secondaryColor);
+   
+    
+}
+a {
+    text-decoration: none;
+    color: var(--secondaryColor);
+}
+
+.navtext{
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    font-size: var(--navText);
+    align-items: center;
+    padding: 0px 30px;
+    
+}
+
+.links{
+    display: flex;
+    justify-content: flex-start;
+    
+    
+}
+
+.links ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.line01{
+    width: 100%;
+    padding: 0px 30px;
+    
+}
+
+.harsha{
+    height: 100%;
+    /* padding: 5px 30px; */
+    margin: 0 30px;
+    background-image: url(../../assets/HARSHA.svg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+   
+    
+}
+
+.details{
+    height: 20%;
+    padding: 0px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: var(--navText);
+    
+}
+
+.line01 hr{
+    height: 3px;
+    background-color: var(--secondaryColor);
+
+}

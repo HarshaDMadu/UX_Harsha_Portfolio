@@ -1,0 +1,52 @@
+.maincontainer{
+    height: 40vh;
+    width: 100%;
+    padding: 30px;
+    background-color: var(--primaryColor);
+    color: var(--secondaryColor);
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    height: 100%;
+    width: 130vw;
+    background-color: aqua;
+
+}
+.textelement{
+    font-size: 13rem;
+   
+}
+
+.element{
+    padding: 30px;
+    flex: 1;
+    height: 100%;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.elementicon{
+    height: 100%;
+    width: 100%;
+    background-image: url(../../assets/object.svg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.text{
+    flex: 3;
+    width: 100%;
+    height: 100%;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+   
+}

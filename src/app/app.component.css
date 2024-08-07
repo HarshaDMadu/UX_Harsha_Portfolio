@@ -1,0 +1,29 @@
+*{
+    margin-top: 0;
+    padding: 0;
+    
+    
+}
+
+
+.container01{
+    
+    position: relative;
+    padding-bottom: 10vh;
+    transform: none;
+    transition: none;
+    
+}
+.chcontainer01{
+    top: 0;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+}
+
+.mainContainer{
+    
+    position: relative;
+    background-color: var(--primaryColor);
+    
+}

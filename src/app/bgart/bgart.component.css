@@ -1,0 +1,22 @@
+.bg{
+    margin: 0;
+    height: 100vh;
+    /* padding-left: 50%;
+    padding-top: 8%; */
+    padding: 8% 5% 10% 55%; 
+   
+   
+
+    
+}
+
+.bgelement{
+    
+    height: 100vh;
+    background-image: url(../../assets/BGelement.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    
+    
+} 

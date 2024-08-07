@@ -1,1 +1,22 @@
+
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&display=swap');
+*{
+    margin: 0px 0px 0px 0px;
+    box-sizing: border-box;
+    font-family: "Syncopate", sans-serif;
+    
+    
+   
+
+}
+
+:root{
+    --primaryColor: #1F1D1B;
+    --secondaryColor: #FFF7E8;
+    --accentColor: #B51019;
+    --navText: 1rem;
+    
+
+}
+
